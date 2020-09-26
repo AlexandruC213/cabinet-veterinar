@@ -1,0 +1,247 @@
+/* HomePage CSS */
+
+/* PetCare Section */
+.petCare-container {
+  height: auto;
+  color: #3a54b4;
+  background-color: #fef7ed;
+  font-family: 'Work Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.petCare-container .petCare-information {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 225px 0 125px 0;
+}
+
+.petCare-container .petCare-information div:first-child {
+  margin-right: 80px;
+}
+
+.petCare-container .petCare-information div h2 {
+  font-size: 7rem;
+  line-height: 100%;
+  font-weight: 700;
+}
+
+.petCare-container .petCare-information div p {
+  font-size: 28px;
+  font-weight: 300;
+  padding: 25px 0;
+}
+
+.petCare-container .petCare-information div button {
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #3a54b4;
+  outline: none;
+  border: none;
+  padding: 12px 35px;
+}
+
+.petCare-container .petCare-information div button:hover {
+  opacity: 0.5;
+}
+
+.petCare-container .petCare-information div img {
+  border-radius: 50%;
+}
+/* PetCare Section END */
+
+/* About Me Section */
+.aboutMe-container {
+  height: auto;
+  margin: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutMe-container div img {
+  border-radius: 50%;
+}
+
+.aboutMe-container .content-aboutMe {
+  width: 30%;
+  color: #3a54b4;
+  font-family: 'Work Sans', sans-serif;
+  margin-left: 100px;
+  font-weight: 300;
+}
+
+.aboutMe-container .content-aboutMe p:first-child {
+  font-size: 4rem;
+  line-height: 0;
+  font-weight: 600;
+}
+
+.aboutMe-container .content-aboutMe p {
+  padding: 20px 100px 50px 0;
+  word-spacing: 2px;
+  line-height: 1.5rem;
+}
+
+.aboutMe-container .content-aboutMe button {
+  font-size: 18px;
+  color: #fff;
+  padding: 10px 25px;
+  background-color: #3a54b4;
+  border: none;
+  cursor: pointer;
+}
+/* About Me Section END */
+
+/* Services Section */
+.services-container {
+  height: auto;
+  color: #3a54b4;
+  font-family: 'Work Sans', sans-serif;
+  margin: 150px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-container .title-services {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 100px;
+}
+
+.services-container .content-services {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-container .content-services div:nth-child(2) {
+  margin: 0 50px;
+}
+
+.services-container .content-services div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-container .content-services div img {
+  border-radius: 50%;
+}
+
+.services-container .content-services div .title-item {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 25px 0 25px 0;
+}
+
+.services-container .content-services div p {
+  width: 75%;
+  text-align: center;
+  line-height: 0.75rem;
+  margin-bottom: 15px;
+}
+
+.services-container .content-services button {
+  font-size: 18px;
+  font-weight: 300;
+  background-color: #3a54b4;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+}
+/* Services Section END */
+
+/* LoveMyClients Section */
+.loveMyClients-container {
+  height: auto;
+  margin: 100px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loveMyClients-container .title-loveMyClients p {
+  font-size: 3rem;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
+  color: #3a54b4;
+  margin-bottom: 50px;
+}
+
+.loveMyClients-container .photos-loveMyClients {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.loveMyClients-container .photos-loveMyClients img {
+  width: 32.5%;
+  height: 32%;
+  margin-top: 20px;
+}
+/* LoveMyClients Section END */
+
+/* PetOwnsers Section */
+.PetOwners-container {
+  height: auto;
+  margin: 50px 0 100px 0;
+  color: #3a54b4;
+  font-family: 'Work Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.PetOwners-container .PetOwners-title p {
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin-bottom: 100px;
+}
+
+.PetOwners-container .PetOwners-content {
+  width: 65%;
+  height: auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.PetOwners-container .PetOwners-content div {
+  width: 25%;
+}
+
+.PetOwners-container .PetOwners-content div .ContentTitle-PetOwners {
+  font-size: 26px;
+  font-weight: 600;
+  color: #3a54b4;
+  padding: 0;
+}
+
+.PetOwners-container .PetOwners-content div p {
+  font-size: 14px;
+  color: #767cbf;
+  padding: 25px 0;
+}
+
+.PetOwners-container .PetOwners-content div .PetOwners-writer {
+  font-size: 16px;
+  color: #3a54b4;
+  font-weight: 600;
+}
+/* PetOwnsers Section END */

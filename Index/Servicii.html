@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <!-- CSS links -->
+    <link rel="stylesheet" href="../Style/HeaderContact.css" />
+    <link rel="stylesheet" href="../Style/HomePageDesign.css" />
+    <!-- JS link -->
+    <script src="../Scripts/Contact.js" defer></script>
+    <script src="../Scripts/Servicii.js" defer></script>
+    <!-- Font Awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <!-- Google Fonts link -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .services-container .newStyle {
+        width: 75%;
+        margin-bottom: 75px;
+        justify-content: space-around;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="header-container">
+      <div class="brand-container">
+        <span class=""><i class="fas fa-paw fa-2x"></i></span>
+        <a href="Acasa.html">Dr. Marc</a>
+      </div>
+      <div class="links-container">
+        <div><a href="Acasa.html">Acasa</a></div>
+        <div><a href="DespreMine.html">Despre mine</a></div>
+        <div><a href="Servicii.html" class="active">Servicii</a></div>
+        <div><a href="#">Contact</a></div>
+      </div>
+    </div>
+    <!-- Header END -->
+
+    <!-- Servicies Section -->
+    <div class="services-container">
+      <div class="title-services">
+        <p>Servicii</p>
+      </div>
+      <div class="content-services newStyle">
+        <div>
+          <img src="../Images/DentalCare.jpg" alt="img" />
+          <p class="title-item">Ingrijire dentara</p>
+          <p>20 min</p>
+          <p>100 ron</p>
+
+          <button>Rezerva acum</button>
+        </div>
+        <div>
+          <img src="../Images/CheckUp.jpg" alt="img" />
+          <p class="title-item">Verificare</p>
+          <p>30 min</p>
+          <p>450 ron</p>
+          <button>Rezerveaza acum</button>
+        </div>
+        <div>
+          <img src="../Images/Grooming.jpg" alt="img" />
+          <p class="title-item">Ingrijire</p>
+          <p>35 min</p>
+          <p>125 ron</p>
+          <button>Rezerveaza acum</button>
+        </div>
+      </div>
+      <div class="content-services newStyle">
+        <div>
+          <img src="../Images/Vaccination.jpg" alt="img" />
+          <p class="title-item">Vaccinare</p>
+          <p>15 min</p>
+          <p>50 ron</p>
+          <button>Rezerveaza acum</button>
+        </div>
+        <div>
+          <img src="../Images/PainManagement.jpg" alt="img" />
+          <p class="title-item">Vopsit</p>
+          <p>45 min</p>
+          <p>200 ron</p>
+          <button>Rezerveaza acum</button>
+        </div>
+        <div>
+          <img src="../Images/Consultaion.jpg" alt="img" />
+          <p class="title-item">Consultare</p>
+          <p>1 hour 30 min</p>
+          <p>900 ron</p>
+          <button>Rezerveaza acum</button>
+        </div>
+      </div>
+    </div>
+    <!-- Servicies Section END -->
+
+    <!-- Contact Section -->
+    <div class="Contact-container" id="Contact">
+      <div>
+        <p class="Contact-title">Contact</p>
+      </div>
+      <div class="Contact-content">
+        <div class="Contact-contentDetails">
+          <div>
+            <p class="Contact-subtitle">Telefon</p>
+            <p>0712 121 212</p>
+          </div>
+          <div>
+            <p class="Contact-subtitle">Email</p>
+            <p>info@mysite.com</p>
+          </div>
+          <div>
+            <p class="Contact-subtitle">Orar</p>
+            <p>luni-Vineri: 9 - 20</p>
+            <p>Sambata: 9 - 16</p>
+          </div>
+          <div>
+            <p class="Contact-subtitle">Locatie</p>
+            <p>Oradea &</p>
+            <p>Timisoara</p>
+          </div>
+        </div>
+        <div class="Contact-contentForm">
+          <form action="../Php/form.php" method="POST" class="ContactForm">
+            <div class="Contact-UpInputs">
+              <input type="text" name="Nume" placeholder="Nume" class="ContactForm-Name" />
+              <input
+                type="text"
+                name="Email"
+                placeholder="Email"
+                class="ContactForm-Email"
+              />
+            </div>
+            <div class="Contact-DownInput">
+              <input type="text" name="Descriere" placeholder="Scrie mesajul aici..." />
+            </div>
+            <div class="Contact-Submit">
+              <button>Trimite</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="Contact-img">
+        <img src="../Images/ContactMe.jpg" alt="img" />
+      </div>
+    </div>
+    <!-- Contact Section END -->
+
+  </body>
+</html>

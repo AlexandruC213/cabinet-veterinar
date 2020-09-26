@@ -1,0 +1,56 @@
+/* AboutMe Section */
+.aboutMe-containerPage {
+  width: 100%;
+  height: auto;
+  margin: 200px 0 100px 0;
+  font-family: 'Work Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+.aboutMe-containerPage .aboutMe-Title {
+  font-size: 4rem;
+  color: #3a54b4;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutMe-containerPage .content-AboutMe {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutMe-containerPage .content-AboutMe img {
+  border-radius: 50%;
+}
+
+.aboutMe-containerPage .content-AboutMe .NewContent-aboutMe {
+  width: 20%;
+  margin-left: 100px;
+}
+
+.aboutMe-containerPage .content-AboutMe .NewContent-aboutMe p:first-child {
+  font-size: 22px;
+  color: #3a54b4;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.aboutMe-containerPage .content-AboutMe .NewContent-aboutMe p {
+  color: #8898d1;
+  line-height: 1.75rem;
+}
+
+.aboutMe-containerPage .content-AboutMe:last-child {
+  flex-direction: row-reverse;
+}
+
+.aboutMe-containerPage .LastAboutMe {
+  margin: 0 100px 0 0;
+}
+/* AboutMe Section END */
