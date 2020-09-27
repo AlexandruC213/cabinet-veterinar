@@ -19,4 +19,6 @@ This landing page was made with:
 
 ***
 
-# Photos
+![Cabinet-Veterinar](Cabinet-Veterinar-1.png)
+![Cabinet-Veterinar](Cabinet-Veterinar-2.png)
+![Cabinet-Veterinar](Cabinet-Veterinar-3.png)
