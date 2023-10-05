@@ -1,7 +1,7 @@
 # cabinet-veterinar
 
-This project is a full website of a veterinary clinic and i made it as a project for university.
-
+This website was made for a university project.
+The website presents a contact form that can be submited and it's saved on a mysql table.
 
 This landing page was made with:
   - [html](https://www.w3schools.com/html/)
@@ -12,10 +12,6 @@ This landing page was made with:
   - [font-awesome](https://fontawesome.com/)
   - [google fonts](https://fonts.google.com/)
   
-***
-
- -  Complex webiste with a contact form that can be submited and it's saved on a mysql table.
- -  Nice design and simple.
 
 ***
 
