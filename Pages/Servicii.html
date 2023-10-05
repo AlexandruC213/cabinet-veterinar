@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>Servicii</title>
     <!-- CSS links -->
     <link rel="stylesheet" href="../Style/HeaderContact.css" />
-    <link rel="stylesheet" href="../Style/AboutMeDesign.css" />
+    <link rel="stylesheet" href="../Style/HomePageDesign.css" />
     <!-- JS link -->
     <script src="../Scripts/Contact.js" defer></script>
+    <script src="../Scripts/Servicii.js" defer></script>
     <!-- Font Awesome link -->
     <link
       rel="stylesheet"
@@ -20,6 +21,14 @@
       href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;800&display=swap"
       rel="stylesheet"
     />
+    <style>
+      .services-container .newStyle {
+        width: 75%;
+        margin-bottom: 75px;
+        justify-content: space-around;
+        align-items: center;
+      }
+    </style>
   </head>
   <body>
     <!-- Header -->
@@ -30,43 +39,67 @@
       </div>
       <div class="links-container">
         <div><a href="Acasa.html">Acasa</a></div>
-        <div><a href="DespreMine.html" class="active">Despre mine</a></div>
-        <div><a href="Servicii.html">Servicii</a></div>
+        <div><a href="DespreMine.html">Despre mine</a></div>
+        <div><a href="Servicii.html" class="active">Servicii</a></div>
         <div><a href="#">Contact</a></div>
       </div>
     </div>
     <!-- Header END -->
 
-    <!-- AboutMe -->
-    <div class="aboutMe-containerPage">
-      <div class="aboutMe-Title">
-        <p>Buna, sunt Dr. Marc Popescu</p>
+    <!-- Servicies Section -->
+    <div class="services-container">
+      <div class="title-services">
+        <p>Servicii</p>
       </div>
-      <div class="content-AboutMe">
-        <img src="../Images/AboutMe-1.jpg" alt="AboutMe" />
-        <div class="NewContent-aboutMe">
-          <p>Peste 3 ani de experienta</p>
-          <p>
-            Nascut in anul 1987 in Timisoara. Absolvent in anul 2012 al
-            Facultatii de Medicina Veterinara din Bucuresti. Master in Clinica
-            si Farmacie Veterinara finalizat in anul 2014. Din anul 2019
-            detinator al titlului de Doctor in Medicina Veterinara.
-          </p>
+      <div class="content-services newStyle">
+        <div>
+          <img src="../Images/DentalCare.jpg" alt="img" />
+          <p class="title-item">Ingrijire dentara</p>
+          <p>20 min</p>
+          <p>100 ron</p>
+
+          <button>Rezerva acum</button>
+        </div>
+        <div>
+          <img src="../Images/CheckUp.jpg" alt="img" />
+          <p class="title-item">Verificare</p>
+          <p>30 min</p>
+          <p>450 ron</p>
+          <button>Rezerveaza acum</button>
+        </div>
+        <div>
+          <img src="../Images/Grooming.jpg" alt="img" />
+          <p class="title-item">Ingrijire</p>
+          <p>35 min</p>
+          <p>125 ron</p>
+          <button>Rezerveaza acum</button>
         </div>
       </div>
-      <div class="content-AboutMe">
-        <img src="../Images/AboutMe-2.jpg" alt="AboutMe" />
-        <div class="NewContent-aboutMe LastAboutMe">
-          <p>Nu este loc ca acasa</p>
-          <p>
-            Sanatatea animalelor voastre este prioritatea noastra. Noi ne dorim
-            sa aducem zambetul pe fata dumneavoastră cand va vedeti animalul
-            sanatos si jucaus.
-          </p>
+      <div class="content-services newStyle">
+        <div>
+          <img src="../Images/Vaccination.jpg" alt="img" />
+          <p class="title-item">Vaccinare</p>
+          <p>15 min</p>
+          <p>50 ron</p>
+          <button>Rezerveaza acum</button>
+        </div>
+        <div>
+          <img src="../Images/PainManagement.jpg" alt="img" />
+          <p class="title-item">Vopsit</p>
+          <p>45 min</p>
+          <p>200 ron</p>
+          <button>Rezerveaza acum</button>
+        </div>
+        <div>
+          <img src="../Images/Consultaion.jpg" alt="img" />
+          <p class="title-item">Consultare</p>
+          <p>1 hour 30 min</p>
+          <p>900 ron</p>
+          <button>Rezerveaza acum</button>
         </div>
       </div>
     </div>
-    <!-- AboutMe END-->
+    <!-- Servicies Section END -->
 
     <!-- Contact Section -->
     <div class="Contact-container" id="Contact">
@@ -95,7 +128,7 @@
           </div>
         </div>
         <div class="Contact-contentForm">
-          <form action="" method="GET" class="ContactForm">
+          <form action="../Php/form.php" method="POST" class="ContactForm">
             <div class="Contact-UpInputs">
               <input type="text" name="Nume" placeholder="Nume" class="ContactForm-Name" />
               <input
@@ -119,5 +152,6 @@
       </div>
     </div>
     <!-- Contact Section END -->
+
   </body>
 </html>
